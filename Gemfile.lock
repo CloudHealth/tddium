@@ -58,9 +58,9 @@ GEM
       oauth2
     hashie (3.3.2)
     highline (1.6.21)
-    httparty (0.9.0)
-      multi_json (~> 1.0)
-      multi_xml
+    httparty (0.21.0)
+      mini_mime (>= 1.0.0)
+      multi_xml (>= 0.5.2)
     httpclient (2.4.0)
     json (1.8.1)
     jwt (1.2.0)
@@ -71,10 +71,11 @@ GEM
       plist
       rack
       sinatra
+    mini_mime (1.1.2)
     mini_portile (0.6.1)
-    multi_json (1.10.1)
+    multi_json (1.15.0)
     multi_test (0.1.1)
-    multi_xml (0.5.5)
+    multi_xml (0.6.0)
     multipart-post (2.0.0)
     nayutaya-msgpack-pure (0.0.2)
     nokogiri (1.6.5)
@@ -131,7 +132,7 @@ DEPENDENCIES
   cucumber
   daemons
   fakefs
-  httparty (= 0.9.0)
+  httparty (= 0.21.0)
   httpclient (= 2.4.0)
   mimic
   pickle
